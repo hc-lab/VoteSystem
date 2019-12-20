@@ -5,6 +5,12 @@ RNF4. La base de datos de la aplicación puede estar en Mysql o PostgresSQL.
   Rpta: Es mejor por la estandarización de lenguaje de programación y base de datos para futuros desarrollos dentro de la universidad.
 
 2. Proyecto implementado en Python, para más detalles en /requirements.txt
+  
+
+ Django(MVT) - Laravel   (MVC)
+  Model    -  Model
+  View     -  Controller
+  Template -  Views
 
 3. /UML/ProcessView
 
@@ -17,5 +23,5 @@ RNF4. La base de datos de la aplicación puede estar en Mysql o PostgresSQL.
     def __str__(self):
          return self.political_party
 
-6./app/models.py 
+6./app/models.py
   class Candidate(person)
