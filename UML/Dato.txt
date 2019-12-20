@@ -1,0 +1,21 @@
+RNF3. El sistema debe estar en PHP o Java, ya que los servidores de la universidad soportan estas plataformar.
+RNF4. La base de datos de la aplicación puede estar en Mysql o PostgresSQL.
+
+1.
+  Rpta: Es mejor por la estandarización de lenguaje de programación y base de datos para futuros desarrollos dentro de la universidad.
+
+2. Proyecto implementado en Python, para más detalles en /requirements.txt
+
+3. /UML/ProcessView
+
+4. /UML/LogicalView
+
+5. Asbrat Factory       /app/models.py
+  class Candidate(Person):
+    political_party= models.CharField(max_length=50)
+
+    def __str__(self):
+         return self.political_party
+
+6./app/models.py 
+  class Candidate(person)
